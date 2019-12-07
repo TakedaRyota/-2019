@@ -1,4 +1,4 @@
-#課題２レポート
+課題２レポート
 
 標準画像「Airplane」を原画像とする。この画像は縦667画素，横1000画素による長方形のディジタルカラー画像である。
 
@@ -31,6 +31,7 @@ IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 4階調にした画像を図3に示す。
+４色で表示された画像になっている。
 
 ![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai2_3.png)
 図3　4階調画像
@@ -46,6 +47,7 @@ IMG = IMG3 + IMG4 + IMG5 + IMG6 + IMG7;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 8階調にした画像を図4に示す。
+８色で表示された画像になっている。
 
 ![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai2_4.png)
 図4　8階調画像
