@@ -24,7 +24,11 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
 % ８階調については，各自検討してください．
-IMG3 = ORG>256;
-IMG = IMG3;
+IMG3 = ORG>32;
+IMG4 = ORG>64;
+IMG5 = ORG>128;
+IMG6 = ORG>192;
+IMG7 = ORG>256;
+IMG = IMG3 + IMG4 + IMG5 + IMG6 + IMG7;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
