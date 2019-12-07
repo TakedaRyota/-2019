@@ -22,5 +22,30 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 ![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai2_2.png)
 図２　２階調画像
 
+4階調の画像を生成する。
 
+IMG0 = ORG>64;
+IMG1 = ORG>128;
+IMG2 = ORG>192;
+IMG = IMG0 + IMG1 + IMG2;
+imagesc(IMG); colormap(gray); colorbar;  axis image;
 
+4階調にした画像を図3に示す。
+
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai2_3.png)
+図3　4階調画像
+
+8階調の画像を生成する。
+
+IMG3 = ORG>32;
+IMG4 = ORG>64;
+IMG5 = ORG>128;
+IMG6 = ORG>192;
+IMG7 = ORG>256;
+IMG = IMG3 + IMG4 + IMG5 + IMG6 + IMG7;
+imagesc(IMG); colormap(gray); colorbar;  axis image;
+
+8階調にした画像を図4に示す。
+
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai2_4.png)
+図4　8階調画像
