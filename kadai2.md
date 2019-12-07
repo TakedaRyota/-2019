@@ -8,4 +8,19 @@ imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像はカラー画像であり，それを白黒濃淡画像に変換した画像を表示した結果を図１に示す。
 
-![原画像]
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai2_1.png)
+図１　白黒濃淡画像
+
+２階調の画像を生成する。
+
+IMG = ORG>128; % 128による二値化
+imagesc(IMG); colormap(gray); colorbar;  axis image;
+
+２階調にした画像を図２に示す。
+白か黒の２色のみの画像となっていることがわかる。
+
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai2_2.png)
+図２　２階調画像
+
+
+
