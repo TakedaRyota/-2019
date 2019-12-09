@@ -48,6 +48,6 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 輝度値が192以上の画素を1，その他を0に変換して表示した結果を図２に示す。
 輝度値が192以上の画素が白になっている。
 
-![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai3_4.png)
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai3_5.png)
 
 図5　閾値192の２値画像
