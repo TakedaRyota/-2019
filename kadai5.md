@@ -10,6 +10,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 図１ 白黒濃淡画像
 
 判別分析法の手順を示す。
+
 ①全画素の濃度の平均値をmyu_Tとする。
 
 H = imhist(ORG); %ヒストグラムのデータを列ベクトルEに格納
