@@ -7,7 +7,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 今までと同様に原画像を白黒濃淡画像に変換する。
 
 ![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai5_1.png)
-図１
+図１ 白黒濃淡画像
 
 判別分析法の手順を示す。
 ①全画素の濃度の平均値をmyu_Tとする。
@@ -51,5 +51,5 @@ imagesc(IMG); colormap(gray); colorbar;
 
 判別分析法によって二値化された画像を図２に示す。
 
-![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai5_.png)
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai5_2.png)
 図２　判別分析法による２値画像
