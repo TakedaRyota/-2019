@@ -31,3 +31,11 @@ pause;
 
 ![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai7_2.png)
 図2 濃度ヒストグラム
+
+ORG = uint8(ORG); % この行について考察せよ
+imhist(ORG); % 濃度ヒストグラムを生成、表示
+
+unit8は8ビット符号なし整数配列に直した時のヒストグラムを表示する。
+
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai7_3.png)
+図3 濃度ヒストグラム
