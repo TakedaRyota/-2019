@@ -14,5 +14,20 @@ pause;
 
 濃度ヒストグラムを表示する。
 
-![原画像](
-図１
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai7_1.png)
+図１ 濃度ヒストグラム
+
+ORGをdouble型にする。
+
+ORG = double(ORG);
+
+濃度値の最小値と最大値を求め，
+(濃度値-最小値) / (最大値-最小値) * 255の時の画像を表示する。
+mn = min(ORG(:)); % 濃度値の最小値を算出
+mx = max(ORG(:)); % 濃度値の最大値を算出
+ORG = (ORG-mn)/(mx-mn)*255;
+imagesc(ORG); colormap(gray); colorbar; % 画像の表示
+pause;
+
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai7_2.png)
+図2 濃度ヒストグラム
