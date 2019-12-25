@@ -10,7 +10,7 @@ pause;
 
 同様に白黒濃淡画像を表示する。
 
-![原画像]()
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai9_1.png)
 
 図１　白黒濃淡画像
 
@@ -22,7 +22,7 @@ pause;
 
 ノイズを乗せた画像を図２に示す。
 
-![原画像]()
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai9_2.png)
 
 図2　ノイズあり画像
 
@@ -34,7 +34,7 @@ pause;
 
 図２の画像を平滑化フィルタで雑音除去を行った画像を示す。
 
-![原画像]()
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai9_3.png)
 
 図３　平滑化フィルタ
 
@@ -46,7 +46,7 @@ pause;
 
 メディアンフィルタで雑音を除去した画像を示す。
 
-![原画像]()
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai9_4.png)
 
 図４　メディアンフィルタ
 
@@ -60,6 +60,6 @@ pause;
 
 フィルタを設計して雑音除去した画像を示す。
 
-![原画像]()
+![原画像](https://github.com/TakedaRyota/Image-Processing-engineering-2019/blob/master/image/kadai9_5.png)
 
 図５　フィルタの設計
